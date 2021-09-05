@@ -25,6 +25,18 @@ Librerías y página utilizadas
 * `https://unsplash.com/developers` Servicios de fotos gratis para desarrolladores.  (Crear cuenta - generar client-id y access para desarrollo)
 
   ![Captura](https://user-images.githubusercontent.com/7141537/132135166-bd574615-082b-4cad-b54a-d15e0e5ecfbc.PNG)
+  
+  Crear cuenta y generar aplicación para tenera Access key y Secret Key para utilizar en nuestra aplicación
+  
+  ![Captura](https://user-images.githubusercontent.com/7141537/132135794-0a623562-31b8-4047-9c5f-7aa604efae0a.PNG)
+  
+  ![Captura](https://user-images.githubusercontent.com/7141537/132135823-09910ff7-96b9-43d3-9b2e-e797150ef966.PNG)
+  
+  Copiar Access Key para utilizar en nuestro aplicativo.
+  
+  ![Captura](https://user-images.githubusercontent.com/7141537/132135941-71ea761e-3892-433d-a848-248e50e7130e.PNG)
+  
+  ![Captura](https://user-images.githubusercontent.com/7141537/132136036-abe424f9-b718-4166-9268-6e03b9f5f911.PNG)
 
 * `https://www.iconfinder.com/search?q=numbers&price=free` Iconos gratis en la nube.
 
@@ -280,4 +292,4 @@ export default FormImg;
  
    ![Captura](https://user-images.githubusercontent.com/7141537/132135635-4bd12beb-3bc0-49c0-b78a-f1dfd0c6a922.PNG)
 
-
+#### NOTA: debe generar su propia ACCESS KEY Y SECRET KEY para su APP (Ver: https://unsplash.com/documentation)
