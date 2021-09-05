@@ -269,6 +269,17 @@ export default FormImg;
 
   ![Captura](https://user-images.githubusercontent.com/7141537/132135236-21318d51-4982-4a3d-b87c-1e215d73e45e.PNG)
 
+** Al Instalar 
+
+ ![Captura](https://user-images.githubusercontent.com/7141537/132135413-cbd18d2f-dd37-414c-b295-a97804ba09e1.PNG)
+ 
+** Se genera acceso directo e icono en windows sobre la barra de herramientas y sobre el escritorio.
+ 
+![Captura](https://user-images.githubusercontent.com/7141537/132135538-9a62e376-dd6b-4bca-9925-410267f123c3.PNG)
+ 
+ * Se puede instalar en plataformas android y iPhone
+ * Se puede liuego desistalar.
+
 
 ### `Index.js`
 
