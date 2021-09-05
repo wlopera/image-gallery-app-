@@ -1,4 +1,4 @@
-CURSO REACT - GALERIA DE IMAGENES - PWA:
+REACT - GALERIA DE IMAGENES - PWA:
 
 image-gallery-app-
 
