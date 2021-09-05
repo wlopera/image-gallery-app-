@@ -26,10 +26,17 @@ Librerías y página utilizadas
 * `https://getbootstrap.com/` Librería Bootstrap.
 * `https://material.io/develop/web/getting-started` Iconos de Bootstrap.
 * `https://unsplash.com/developers` Servicios de fotos gratis para desarrolladores.  (Crear cuenta - generar client-id y access para desarrollo)
-* `https://www.flaticon.es/packs/resultados?word=business&type=icon` Iconos gratis en la nube.
+* * `https://www.iconfinder.com/search?q=numbers&price=free` Iconos gratis en la nube.
+
+   ![Captura](https://user-images.githubusercontent.com/7141537/132135061-8cb6165c-fd1e-4ce2-b157-50498d5b9a7b.PNG)
+   
 * `https://www.pwabuilder.com/imageGenerator` Generados de imágenes en la nube.
 * `https://imagen.online-convert.com/es/convertir-a-ico` Conversor de png a ico.
+
+
 * `https://app.netlify.com/` Plataforma de desarrollo web  para publicar programas para desarrolladores. (Crear cuenta)
+  
+  ![Captura](https://user-images.githubusercontent.com/7141537/132135016-08380545-32d9-4530-bc58-ff2471d4501a.PNG)
 
 
 ## Estrutura de carpetas
@@ -245,5 +252,11 @@ export default FormImg;
 
 ```
 
+## Código
+
+Ejemplos:
+
+
+### `Index.js`
 
 
