@@ -1,12 +1,14 @@
 import React from "react";
 import Container from "./components/Container";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 const App = () => {
   return (
     <>
-      <h1>Galeria de Imágenes APP</h1>
-      <hr />
+      <Header />
       <Container />
+      <Footer />
     </>
   );
 };

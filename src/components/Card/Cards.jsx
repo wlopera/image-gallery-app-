@@ -1,9 +1,12 @@
 import React, { useCallback, useEffect, useState } from "react";
+import FormImg from "../FormImg";
+import Loading from "../Loading";
 import Card from "./Card";
 
 const Cards = () => {
   const [images, setImages] = useState([]);
   const [input, setInput] = useState("");
+  const [loading, setLoading] = useState(true);
 
   const peticion = useCallback(async () => {
     const key = "client_id=nHO9HlChIrXOLZFzSkExu_dxPTcp6RwGrzo58kXBPAk";
@@ -13,6 +16,7 @@ const Cards = () => {
       route = `https://api.unsplash.com/search/photos/?query=${input}&${key}`;
     }
 
+    setLoading(true);
     const res = await fetch(route);
     const data = await res.json();
 
@@ -21,6 +25,7 @@ const Cards = () => {
     } else {
       setImages(data);
     }
+    setLoading(false);
   }, [input]);
 
   useEffect(() => {
@@ -33,18 +38,23 @@ const Cards = () => {
     setInput(e.target[0].value);
   };
   return (
-    <>
-      <form onSubmit={handleSubmit}>
-        <label>
-          Buscar: <input type="text" name="inputText" />
-        </label>
-      </form>
+    <div className="text-center">
+      <FormImg handleSubmit={handleSubmit} />
       <hr />
-      {images.length > 0 &&
-        images.map((item) => {
-          return <Card key={item.id} img={item.urls.regular} />;
-        })}
-    </>
+
+      {loading && <Loading />}
+
+      <div className="row">
+        {images.length > 0 &&
+          images.map((item) => {
+            return (
+              <div className="col" key={item.id}>
+                <Card img={item.urls.regular} />
+              </div>
+            );
+          })}
+      </div>
+    </div>
   );
 };
 
