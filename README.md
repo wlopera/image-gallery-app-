@@ -255,9 +255,19 @@ export default FormImg;
 
 ```
 
-## Código
+## PWA
 
-Ejemplos:
+* Crear imágenes (`https://www.pwabuilder.com/imageGenerator` Generados de imágenes en la nube.)
+
+  ![Captura](https://user-images.githubusercontent.com/7141537/132135300-7cf91da5-0528-4161-b387-934370d61d3c.PNG)
+
+* Ajustar el manifest.json
+
+  ![Captura](https://user-images.githubusercontent.com/7141537/132135333-6b06f31a-578c-487d-b4ae-17480b3634bb.PNG)
+
+* En el navegador: Instalar la APP
+
+  ![Captura](https://user-images.githubusercontent.com/7141537/132135236-21318d51-4982-4a3d-b87c-1e215d73e45e.PNG)
 
 
 ### `Index.js`
