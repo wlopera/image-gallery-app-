@@ -25,11 +25,11 @@ Librerías y página utilizadas
 * `useState - useEffect - useCallback` User Hooks utilizados.
 * `https://getbootstrap.com/` Librería Bootstrap.
 * `https://material.io/develop/web/getting-started` Iconos de Bootstrap.
-* `https://unsplash.com/developers` Servicios de fotos gratis para desarrolladores.
+* `https://unsplash.com/developers` Servicios de fotos gratis para desarrolladores.  (Crear cuenta - generar client-id y access para desarrollo)
 * `https://www.flaticon.es/packs/resultados?word=business&type=icon` Iconos gratis en la nube.
 * `https://www.pwabuilder.com/imageGenerator` Generados de imágenes en la nube.
 * `https://imagen.online-convert.com/es/convertir-a-ico` Conversor de png a ico.
-* `https://app.netlify.com/` Plataforma de desarrollo web  para publicar programas para desarrolladores.
+* `https://app.netlify.com/` Plataforma de desarrollo web  para publicar programas para desarrolladores. (Crear cuenta)
 
 
 ## Estrutura de carpetas
