@@ -26,7 +26,10 @@ Librerías y página utilizadas
 * `https://getbootstrap.com/` Librería Bootstrap.
 * `https://material.io/develop/web/getting-started` Iconos de Bootstrap.
 * `https://unsplash.com/developers` Servicios de fotos gratis para desarrolladores.  (Crear cuenta - generar client-id y access para desarrollo)
-* * `https://www.iconfinder.com/search?q=numbers&price=free` Iconos gratis en la nube.
+
+  ![Captura](https://user-images.githubusercontent.com/7141537/132135166-bd574615-082b-4cad-b54a-d15e0e5ecfbc.PNG)
+
+* `https://www.iconfinder.com/search?q=numbers&price=free` Iconos gratis en la nube.
 
    ![Captura](https://user-images.githubusercontent.com/7141537/132135061-8cb6165c-fd1e-4ce2-b157-50498d5b9a7b.PNG)
    
